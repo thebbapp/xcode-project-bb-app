@@ -1,0 +1,1081 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3A30ED42EF324FB005A736A /* BbAppAuthProvider in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30ED32EF324FB005A736A /* BbAppAuthProvider */; };
+		C3A30ED72EF32521005A736A /* BbAppAuthProviderPlaintext in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30ED62EF32521005A736A /* BbAppAuthProviderPlaintext */; };
+		C3A30EDA2EF32537005A736A /* BbAppAuthProviderSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30ED92EF32537005A736A /* BbAppAuthProviderSchema */; };
+		C3A30EDD2EF32549005A736A /* BbAppAuthorSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EDC2EF32549005A736A /* BbAppAuthorSchema */; };
+		C3A30EE02EF32560005A736A /* BbAppConfiguration in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EDF2EF32560005A736A /* BbAppConfiguration */; };
+		C3A30EE32EF32577005A736A /* BbAppContent in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EE22EF32577005A736A /* BbAppContent */; };
+		C3A30EE62EF3258D005A736A /* BbAppContentSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EE52EF3258D005A736A /* BbAppContentSchema */; };
+		C3A30EE92EF325A2005A736A /* BbAppContentSource in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EE82EF325A2005A736A /* BbAppContentSource */; };
+		C3A30EEC2EF325BA005A736A /* BbAppContentSourceBbPress in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EEB2EF325BA005A736A /* BbAppContentSourceBbPress */; };
+		C3A30EEF2EF325CF005A736A /* BbAppContentSourceSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EEE2EF325CF005A736A /* BbAppContentSourceSchema */; };
+		C3A30EF22EF325ED005A736A /* BbAppContentSourceWordPress in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EF12EF325ED005A736A /* BbAppContentSourceWordPress */; };
+		C3A30EF52EF32617005A736A /* BbAppContentSourceWordPressBase in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EF42EF32617005A736A /* BbAppContentSourceWordPressBase */; };
+		C3A30EF82EF32634005A736A /* BbAppContentStore in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EF72EF32634005A736A /* BbAppContentStore */; };
+		C3A30EFB2EF32664005A736A /* BbAppContentView in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EFA2EF32664005A736A /* BbAppContentView */; };
+		C3A30EFE2EF3267C005A736A /* BbAppDelegate in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30EFD2EF3267C005A736A /* BbAppDelegate */; };
+		C3A30F012EF32697005A736A /* BbAppEditComment in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F002EF32697005A736A /* BbAppEditComment */; };
+		C3A30F042EF326B5005A736A /* BbAppEditCommentSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F032EF326B5005A736A /* BbAppEditCommentSchema */; };
+		C3A30F072EF326CF005A736A /* BbAppEditPost in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F062EF326CF005A736A /* BbAppEditPost */; };
+		C3A30F0A2EF326EC005A736A /* BbAppEditPostSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F092EF326EC005A736A /* BbAppEditPostSchema */; };
+		C3A30F0D2EF32707005A736A /* BbAppHTML in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F0C2EF32707005A736A /* BbAppHTML */; };
+		C3A30F102EF32724005A736A /* BbAppHttpClient in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F0F2EF32724005A736A /* BbAppHttpClient */; };
+		C3A30F132EF32742005A736A /* BbAppIntent in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F122EF32742005A736A /* BbAppIntent */; };
+		C3A30F162EF32763005A736A /* BbAppModuleSet in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F152EF32763005A736A /* BbAppModuleSet */; };
+		C3A30F192EF32785005A736A /* BbAppNewComment in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F182EF32785005A736A /* BbAppNewComment */; };
+		C3A30F1C2EF327A5005A736A /* BbAppNewCommentSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F1B2EF327A5005A736A /* BbAppNewCommentSchema */; };
+		C3A30F1F2EF327C7005A736A /* BbAppNewPost in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F1E2EF327C6005A736A /* BbAppNewPost */; };
+		C3A30F222EF327E8005A736A /* BbAppNewPostSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F212EF327E8005A736A /* BbAppNewPostSchema */; };
+		C3A30F252EF3280A005A736A /* BbAppPrompt in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F242EF3280A005A736A /* BbAppPrompt */; };
+		C3A30F282EF3282D005A736A /* BbAppPush in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F272EF3282D005A736A /* BbAppPush */; };
+		C3A30F2B2EF32851005A736A /* BbAppRelativeDate in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F2A2EF32851005A736A /* BbAppRelativeDate */; };
+		C3A30F2E2EF32876005A736A /* BbAppSearch in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F2D2EF32876005A736A /* BbAppSearch */; };
+		C3A30F312EF3289A005A736A /* BbAppSearchSchema in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F302EF3289A005A736A /* BbAppSearchSchema */; };
+		C3A30F342EF328BF005A736A /* BbAppState in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F332EF328BF005A736A /* BbAppState */; };
+		C3A30F372EF328E5005A736A /* BbAppStatusBar in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F362EF328E5005A736A /* BbAppStatusBar */; };
+		C3A30F3A2EF3290B005A736A /* BbAppTask in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F392EF3290B005A736A /* BbAppTask */; };
+		C3A30F3D2EF32935005A736A /* BbAppView in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F3C2EF32935005A736A /* BbAppView */; };
+		C3A30F402EF3295C005A736A /* BbAppViewComment in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F3F2EF3295C005A736A /* BbAppViewComment */; };
+		C3A30F432EF32985005A736A /* BbAppViewPost in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F422EF32985005A736A /* BbAppViewPost */; };
+		C3A30F462EF329A8005A736A /* BbAppViewSection in Frameworks */ = {isa = PBXBuildFile; productRef = C3A30F452EF329A8005A736A /* BbAppViewSection */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C3A30EB42EF2FD9A005A736A /* BbApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BbApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C3A30FD32EF33350005A736A /* Exceptions for "BbApp" folder in "BbApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C3A30EB32EF2FD9A005A736A /* BbApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C3A30EB62EF2FD9A005A736A /* BbApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C3A30FD32EF33350005A736A /* Exceptions for "BbApp" folder in "BbApp" target */,
+			);
+			path = BbApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A30EB12EF2FD9A005A736A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A30EDA2EF32537005A736A /* BbAppAuthProviderSchema in Frameworks */,
+				C3A30EE02EF32560005A736A /* BbAppConfiguration in Frameworks */,
+				C3A30EF82EF32634005A736A /* BbAppContentStore in Frameworks */,
+				C3A30F102EF32724005A736A /* BbAppHttpClient in Frameworks */,
+				C3A30F1C2EF327A5005A736A /* BbAppNewCommentSchema in Frameworks */,
+				C3A30F432EF32985005A736A /* BbAppViewPost in Frameworks */,
+				C3A30F1F2EF327C7005A736A /* BbAppNewPost in Frameworks */,
+				C3A30EFB2EF32664005A736A /* BbAppContentView in Frameworks */,
+				C3A30F072EF326CF005A736A /* BbAppEditPost in Frameworks */,
+				C3A30EEF2EF325CF005A736A /* BbAppContentSourceSchema in Frameworks */,
+				C3A30F0A2EF326EC005A736A /* BbAppEditPostSchema in Frameworks */,
+				C3A30F222EF327E8005A736A /* BbAppNewPostSchema in Frameworks */,
+				C3A30ED42EF324FB005A736A /* BbAppAuthProvider in Frameworks */,
+				C3A30EF22EF325ED005A736A /* BbAppContentSourceWordPress in Frameworks */,
+				C3A30EE92EF325A2005A736A /* BbAppContentSource in Frameworks */,
+				C3A30F2B2EF32851005A736A /* BbAppRelativeDate in Frameworks */,
+				C3A30EDD2EF32549005A736A /* BbAppAuthorSchema in Frameworks */,
+				C3A30F3A2EF3290B005A736A /* BbAppTask in Frameworks */,
+				C3A30F0D2EF32707005A736A /* BbAppHTML in Frameworks */,
+				C3A30EEC2EF325BA005A736A /* BbAppContentSourceBbPress in Frameworks */,
+				C3A30F2E2EF32876005A736A /* BbAppSearch in Frameworks */,
+				C3A30F132EF32742005A736A /* BbAppIntent in Frameworks */,
+				C3A30F252EF3280A005A736A /* BbAppPrompt in Frameworks */,
+				C3A30EFE2EF3267C005A736A /* BbAppDelegate in Frameworks */,
+				C3A30EF52EF32617005A736A /* BbAppContentSourceWordPressBase in Frameworks */,
+				C3A30F342EF328BF005A736A /* BbAppState in Frameworks */,
+				C3A30F3D2EF32935005A736A /* BbAppView in Frameworks */,
+				C3A30F192EF32785005A736A /* BbAppNewComment in Frameworks */,
+				C3A30F162EF32763005A736A /* BbAppModuleSet in Frameworks */,
+				C3A30F402EF3295C005A736A /* BbAppViewComment in Frameworks */,
+				C3A30F042EF326B5005A736A /* BbAppEditCommentSchema in Frameworks */,
+				C3A30F282EF3282D005A736A /* BbAppPush in Frameworks */,
+				C3A30EE32EF32577005A736A /* BbAppContent in Frameworks */,
+				C3A30EE62EF3258D005A736A /* BbAppContentSchema in Frameworks */,
+				C3A30F372EF328E5005A736A /* BbAppStatusBar in Frameworks */,
+				C3A30F312EF3289A005A736A /* BbAppSearchSchema in Frameworks */,
+				C3A30F012EF32697005A736A /* BbAppEditComment in Frameworks */,
+				C3A30F462EF329A8005A736A /* BbAppViewSection in Frameworks */,
+				C3A30ED72EF32521005A736A /* BbAppAuthProviderPlaintext in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3A30EAB2EF2FD9A005A736A = {
+			isa = PBXGroup;
+			children = (
+				C3A30EB62EF2FD9A005A736A /* BbApp */,
+				C3A30EB52EF2FD9A005A736A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A30EB52EF2FD9A005A736A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A30EB42EF2FD9A005A736A /* BbApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A30EB32EF2FD9A005A736A /* BbApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A30EBF2EF2FD9C005A736A /* Build configuration list for PBXNativeTarget "BbApp" */;
+			buildPhases = (
+				C3A30EB02EF2FD9A005A736A /* Sources */,
+				C3A30EB12EF2FD9A005A736A /* Frameworks */,
+				C3A30EB22EF2FD9A005A736A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C3A30EB62EF2FD9A005A736A /* BbApp */,
+			);
+			name = BbApp;
+			packageProductDependencies = (
+				C3A30ED32EF324FB005A736A /* BbAppAuthProvider */,
+				C3A30ED62EF32521005A736A /* BbAppAuthProviderPlaintext */,
+				C3A30ED92EF32537005A736A /* BbAppAuthProviderSchema */,
+				C3A30EDC2EF32549005A736A /* BbAppAuthorSchema */,
+				C3A30EDF2EF32560005A736A /* BbAppConfiguration */,
+				C3A30EE22EF32577005A736A /* BbAppContent */,
+				C3A30EE52EF3258D005A736A /* BbAppContentSchema */,
+				C3A30EE82EF325A2005A736A /* BbAppContentSource */,
+				C3A30EEB2EF325BA005A736A /* BbAppContentSourceBbPress */,
+				C3A30EEE2EF325CF005A736A /* BbAppContentSourceSchema */,
+				C3A30EF12EF325ED005A736A /* BbAppContentSourceWordPress */,
+				C3A30EF42EF32617005A736A /* BbAppContentSourceWordPressBase */,
+				C3A30EF72EF32634005A736A /* BbAppContentStore */,
+				C3A30EFA2EF32664005A736A /* BbAppContentView */,
+				C3A30EFD2EF3267C005A736A /* BbAppDelegate */,
+				C3A30F002EF32697005A736A /* BbAppEditComment */,
+				C3A30F032EF326B5005A736A /* BbAppEditCommentSchema */,
+				C3A30F062EF326CF005A736A /* BbAppEditPost */,
+				C3A30F092EF326EC005A736A /* BbAppEditPostSchema */,
+				C3A30F0C2EF32707005A736A /* BbAppHTML */,
+				C3A30F0F2EF32724005A736A /* BbAppHttpClient */,
+				C3A30F122EF32742005A736A /* BbAppIntent */,
+				C3A30F152EF32763005A736A /* BbAppModuleSet */,
+				C3A30F182EF32785005A736A /* BbAppNewComment */,
+				C3A30F1B2EF327A5005A736A /* BbAppNewCommentSchema */,
+				C3A30F1E2EF327C6005A736A /* BbAppNewPost */,
+				C3A30F212EF327E8005A736A /* BbAppNewPostSchema */,
+				C3A30F242EF3280A005A736A /* BbAppPrompt */,
+				C3A30F272EF3282D005A736A /* BbAppPush */,
+				C3A30F2A2EF32851005A736A /* BbAppRelativeDate */,
+				C3A30F2D2EF32876005A736A /* BbAppSearch */,
+				C3A30F302EF3289A005A736A /* BbAppSearchSchema */,
+				C3A30F332EF328BF005A736A /* BbAppState */,
+				C3A30F362EF328E5005A736A /* BbAppStatusBar */,
+				C3A30F392EF3290B005A736A /* BbAppTask */,
+				C3A30F3C2EF32935005A736A /* BbAppView */,
+				C3A30F3F2EF3295C005A736A /* BbAppViewComment */,
+				C3A30F422EF32985005A736A /* BbAppViewPost */,
+				C3A30F452EF329A8005A736A /* BbAppViewSection */,
+			);
+			productName = BbApp;
+			productReference = C3A30EB42EF2FD9A005A736A /* BbApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A30EAC2EF2FD9A005A736A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					C3A30EB32EF2FD9A005A736A = {
+						CreatedOnToolsVersion = 26.2;
+						LastSwiftMigration = 2620;
+					};
+				};
+			};
+			buildConfigurationList = C3A30EAF2EF2FD9A005A736A /* Build configuration list for PBXProject "BbApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3A30EAB2EF2FD9A005A736A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C3A30ED22EF324FB005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider" */,
+				C3A30ED52EF32521005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-plaintext" */,
+				C3A30ED82EF32537005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-schema" */,
+				C3A30EDB2EF32549005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-author-schema" */,
+				C3A30EDE2EF32560005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-configuration" */,
+				C3A30EE12EF32577005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content" */,
+				C3A30EE42EF3258D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-schema" */,
+				C3A30EE72EF325A2005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source" */,
+				C3A30EEA2EF325BA005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-bb-press" */,
+				C3A30EED2EF325CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-schema" */,
+				C3A30EF02EF325ED005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press" */,
+				C3A30EF32EF32617005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press-base" */,
+				C3A30EF62EF32634005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-store" */,
+				C3A30EF92EF32664005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-view" */,
+				C3A30EFC2EF3267C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-delegate" */,
+				C3A30EFF2EF32697005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment" */,
+				C3A30F022EF326B5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment-schema" */,
+				C3A30F052EF326CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post" */,
+				C3A30F082EF326EC005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post-schema" */,
+				C3A30F0B2EF32707005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-html" */,
+				C3A30F0E2EF32724005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-http-client" */,
+				C3A30F112EF32742005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-intent" */,
+				C3A30F142EF32763005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-module-set" */,
+				C3A30F172EF32785005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment" */,
+				C3A30F1A2EF327A5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment-schema" */,
+				C3A30F1D2EF327C6005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post" */,
+				C3A30F202EF327E8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post-schema" */,
+				C3A30F232EF3280A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-prompt" */,
+				C3A30F262EF3282D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-push" */,
+				C3A30F292EF32851005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-relative-date" */,
+				C3A30F2C2EF32876005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search" */,
+				C3A30F2F2EF3289A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search-schema" */,
+				C3A30F322EF328BF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-state" */,
+				C3A30F352EF328E5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-status-bar" */,
+				C3A30F382EF3290B005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-task" */,
+				C3A30F3B2EF32935005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view" */,
+				C3A30F3E2EF3295C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-comment" */,
+				C3A30F412EF32985005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-post" */,
+				C3A30F442EF329A8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-section" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C3A30EB52EF2FD9A005A736A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A30EB32EF2FD9A005A736A /* BbApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A30EB22EF2FD9A005A736A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A30EB02EF2FD9A005A736A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C3A30EBD2EF2FD9C005A736A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3A30EBE2EF2FD9C005A736A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C3A30EC02EF2FD9C005A736A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BbApp/BbApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BbApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MERGED_BINARY_TYPE = manual;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		C3A30EC12EF2FD9C005A736A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BbApp/BbApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = BbApp/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				MERGED_BINARY_TYPE = manual;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				RUNTIME_EXCEPTION_DISABLE_LIBRARY_VALIDATION = NO;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 18.0;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A30EAF2EF2FD9A005A736A /* Build configuration list for PBXProject "BbApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A30EBD2EF2FD9C005A736A /* Debug */,
+				C3A30EBE2EF2FD9C005A736A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A30EBF2EF2FD9C005A736A /* Build configuration list for PBXNativeTarget "BbApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A30EC02EF2FD9C005A736A /* Debug */,
+				C3A30EC12EF2FD9C005A736A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3A30ED22EF324FB005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-auth-provider.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30ED52EF32521005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-plaintext" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-auth-provider-plaintext.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30ED82EF32537005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-auth-provider-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EDB2EF32549005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-author-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-author-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EDE2EF32560005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-configuration" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-configuration.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EE12EF32577005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EE42EF3258D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EE72EF325A2005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-source.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EEA2EF325BA005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-bb-press" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-source-bb-press.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EED2EF325CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-source-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EF02EF325ED005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-source-word-press.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EF32EF32617005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press-base" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-source-word-press-base.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EF62EF32634005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-store" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-store.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EF92EF32664005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-content-view.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EFC2EF3267C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-delegate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-delegate.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30EFF2EF32697005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-edit-comment.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F022EF326B5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-edit-comment-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F052EF326CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-edit-post.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F082EF326EC005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-edit-post-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F0B2EF32707005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-html" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-html.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F0E2EF32724005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-http-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-http-client.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F112EF32742005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-intent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-intent.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F142EF32763005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-module-set" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-module-set.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F172EF32785005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-new-comment.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F1A2EF327A5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-new-comment-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F1D2EF327C6005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-new-post.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F202EF327E8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-new-post-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F232EF3280A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-prompt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-prompt.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F262EF3282D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-push" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-push.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F292EF32851005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-relative-date" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-relative-date.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F2C2EF32876005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-search.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F2F2EF3289A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search-schema" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-search-schema.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F322EF328BF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-state" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-state.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F352EF328E5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-status-bar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-status-bar.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F382EF3290B005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-task" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-task.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F3B2EF32935005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-view.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F3E2EF3295C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-comment" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-view-comment.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F412EF32985005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-post" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-view-post.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		C3A30F442EF329A8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-section" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/thebbapp/swift-package-bb-app-view-section.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3A30ED32EF324FB005A736A /* BbAppAuthProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30ED22EF324FB005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider" */;
+			productName = BbAppAuthProvider;
+		};
+		C3A30ED62EF32521005A736A /* BbAppAuthProviderPlaintext */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30ED52EF32521005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-plaintext" */;
+			productName = BbAppAuthProviderPlaintext;
+		};
+		C3A30ED92EF32537005A736A /* BbAppAuthProviderSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30ED82EF32537005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-auth-provider-schema" */;
+			productName = BbAppAuthProviderSchema;
+		};
+		C3A30EDC2EF32549005A736A /* BbAppAuthorSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EDB2EF32549005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-author-schema" */;
+			productName = BbAppAuthorSchema;
+		};
+		C3A30EDF2EF32560005A736A /* BbAppConfiguration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EDE2EF32560005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-configuration" */;
+			productName = BbAppConfiguration;
+		};
+		C3A30EE22EF32577005A736A /* BbAppContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EE12EF32577005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content" */;
+			productName = BbAppContent;
+		};
+		C3A30EE52EF3258D005A736A /* BbAppContentSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EE42EF3258D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-schema" */;
+			productName = BbAppContentSchema;
+		};
+		C3A30EE82EF325A2005A736A /* BbAppContentSource */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EE72EF325A2005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source" */;
+			productName = BbAppContentSource;
+		};
+		C3A30EEB2EF325BA005A736A /* BbAppContentSourceBbPress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EEA2EF325BA005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-bb-press" */;
+			productName = BbAppContentSourceBbPress;
+		};
+		C3A30EEE2EF325CF005A736A /* BbAppContentSourceSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EED2EF325CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-schema" */;
+			productName = BbAppContentSourceSchema;
+		};
+		C3A30EF12EF325ED005A736A /* BbAppContentSourceWordPress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EF02EF325ED005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press" */;
+			productName = BbAppContentSourceWordPress;
+		};
+		C3A30EF42EF32617005A736A /* BbAppContentSourceWordPressBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EF32EF32617005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-source-word-press-base" */;
+			productName = BbAppContentSourceWordPressBase;
+		};
+		C3A30EF72EF32634005A736A /* BbAppContentStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EF62EF32634005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-store" */;
+			productName = BbAppContentStore;
+		};
+		C3A30EFA2EF32664005A736A /* BbAppContentView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EF92EF32664005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-content-view" */;
+			productName = BbAppContentView;
+		};
+		C3A30EFD2EF3267C005A736A /* BbAppDelegate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EFC2EF3267C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-delegate" */;
+			productName = BbAppDelegate;
+		};
+		C3A30F002EF32697005A736A /* BbAppEditComment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30EFF2EF32697005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment" */;
+			productName = BbAppEditComment;
+		};
+		C3A30F032EF326B5005A736A /* BbAppEditCommentSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F022EF326B5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-comment-schema" */;
+			productName = BbAppEditCommentSchema;
+		};
+		C3A30F062EF326CF005A736A /* BbAppEditPost */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F052EF326CF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post" */;
+			productName = BbAppEditPost;
+		};
+		C3A30F092EF326EC005A736A /* BbAppEditPostSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F082EF326EC005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-edit-post-schema" */;
+			productName = BbAppEditPostSchema;
+		};
+		C3A30F0C2EF32707005A736A /* BbAppHTML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F0B2EF32707005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-html" */;
+			productName = BbAppHTML;
+		};
+		C3A30F0F2EF32724005A736A /* BbAppHttpClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F0E2EF32724005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-http-client" */;
+			productName = BbAppHttpClient;
+		};
+		C3A30F122EF32742005A736A /* BbAppIntent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F112EF32742005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-intent" */;
+			productName = BbAppIntent;
+		};
+		C3A30F152EF32763005A736A /* BbAppModuleSet */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F142EF32763005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-module-set" */;
+			productName = BbAppModuleSet;
+		};
+		C3A30F182EF32785005A736A /* BbAppNewComment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F172EF32785005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment" */;
+			productName = BbAppNewComment;
+		};
+		C3A30F1B2EF327A5005A736A /* BbAppNewCommentSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F1A2EF327A5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-comment-schema" */;
+			productName = BbAppNewCommentSchema;
+		};
+		C3A30F1E2EF327C6005A736A /* BbAppNewPost */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F1D2EF327C6005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post" */;
+			productName = BbAppNewPost;
+		};
+		C3A30F212EF327E8005A736A /* BbAppNewPostSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F202EF327E8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-new-post-schema" */;
+			productName = BbAppNewPostSchema;
+		};
+		C3A30F242EF3280A005A736A /* BbAppPrompt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F232EF3280A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-prompt" */;
+			productName = BbAppPrompt;
+		};
+		C3A30F272EF3282D005A736A /* BbAppPush */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F262EF3282D005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-push" */;
+			productName = BbAppPush;
+		};
+		C3A30F2A2EF32851005A736A /* BbAppRelativeDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F292EF32851005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-relative-date" */;
+			productName = BbAppRelativeDate;
+		};
+		C3A30F2D2EF32876005A736A /* BbAppSearch */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F2C2EF32876005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search" */;
+			productName = BbAppSearch;
+		};
+		C3A30F302EF3289A005A736A /* BbAppSearchSchema */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F2F2EF3289A005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-search-schema" */;
+			productName = BbAppSearchSchema;
+		};
+		C3A30F332EF328BF005A736A /* BbAppState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F322EF328BF005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-state" */;
+			productName = BbAppState;
+		};
+		C3A30F362EF328E5005A736A /* BbAppStatusBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F352EF328E5005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-status-bar" */;
+			productName = BbAppStatusBar;
+		};
+		C3A30F392EF3290B005A736A /* BbAppTask */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F382EF3290B005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-task" */;
+			productName = BbAppTask;
+		};
+		C3A30F3C2EF32935005A736A /* BbAppView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F3B2EF32935005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view" */;
+			productName = BbAppView;
+		};
+		C3A30F3F2EF3295C005A736A /* BbAppViewComment */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F3E2EF3295C005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-comment" */;
+			productName = BbAppViewComment;
+		};
+		C3A30F422EF32985005A736A /* BbAppViewPost */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F412EF32985005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-post" */;
+			productName = BbAppViewPost;
+		};
+		C3A30F452EF329A8005A736A /* BbAppViewSection */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3A30F442EF329A8005A736A /* XCRemoteSwiftPackageReference "swift-package-bb-app-view-section" */;
+			productName = BbAppViewSection;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C3A30EAC2EF2FD9A005A736A /* Project object */;
+}

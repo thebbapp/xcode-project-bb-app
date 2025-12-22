@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "Logo-BB-Background-400-240.png",
+      "idiom" : "tv",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Logo-BB-Background-800-480.png",
+      "idiom" : "tv",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

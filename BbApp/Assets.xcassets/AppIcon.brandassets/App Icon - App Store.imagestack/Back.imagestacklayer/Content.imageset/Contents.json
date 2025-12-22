@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Logo-BB-Background-1280-768.png",
+      "idiom" : "tv"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
